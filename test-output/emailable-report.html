@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">/Users/perlams/IdeaProjects/automation_challenge</a></td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi">0</td><td class="numi">30.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">/Users/perlams/IdeaProjects/automation_challenge &#8212; passed</th></tr>
+<tr class="passedodd"><td>cart.CartTests</td><td><a href="#m1"><b>testAddAnSpecificSingleItem</b>  </a></td><td class="numi">1</td><td>1635836207495</td><td class="numi">3243</td></tr>
+<tr class="passedeven"><td>home.HomeTests</td><td><a href="#m2"><b>testSortProductsLowToHigh</b>  </a></td><td class="numi">1</td><td>1635836219021</td><td class="numi">1480</td></tr>
+<tr class="passedodd"><td>login.LoginTests</td><td><a href="#m3"><b>testLogout</b>  </a></td><td class="numi">1</td><td>1635836224838</td><td class="numi">1009</td></tr>
+<tr class="passedeven"><td>cart.CartTests</td><td><a href="#m4"><b>testAddItemsToCart</b>  </a></td><td class="numi">1</td><td>1635836204712</td><td class="numi">2777</td></tr>
+<tr class="passedodd"><td rowspan="2">login.LoginTests</td><td><a href="#m5"><b>testLogin_WithInvalidUser</b>  </a></td><td class="numi">1</td><td>1635836223893</td><td class="numi">480</td></tr><tr class="passedodd"><td><a href="#m6"><b>testLogin_WithLockedUser</b>  </a></td><td class="numi">1</td><td>1635836224377</td><td class="numi">459</td></tr>
+<tr class="passedeven"><td>checkout.OrdersTests</td><td><a href="#m7"><b>testCompleteAPurchase</b>  </a></td><td class="numi">1</td><td>1635836213170</td><td class="numi">3547</td></tr>
+<tr class="passedodd"><td>login.LoginTests</td><td><a href="#m8"><b>testLogin_WithValidUser</b>  </a></td><td class="numi">1</td><td>1635836222913</td><td class="numi">978</td></tr>
+</table>
+<h1>/Users/perlams/IdeaProjects/automation_challenge</h1>
+<h2 id="m1">login.LoginTests:testLogout</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>standard_user</td>
+<td>secret_sauce</td>
+<td>inventory.html</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">cart.CartTests:testAddItemsToCart</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>standard_user</td>
+<td>secret_sauce</td>
+<td>Price (low to high)</td>
+<td>Sauce Labs Onesie</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">cart.CartTests:testAddAnSpecificSingleItem</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>standard_user</td>
+<td>secret_sauce</td>
+<td>Price (low to high)</td>
+<td>Sauce Labs Onesie</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">login.LoginTests:testLogin_WithInvalidUser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>anystring</td>
+<td>secret_sauce</td>
+<td>Epic sadface: Username and password do not match any user in this service</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">home.HomeTests:testSortProductsLowToHigh</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>standard_user</td>
+<td>secret_sauce</td>
+<td>Price (low to high)</td>
+<td>Sauce Labs Onesie</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">login.LoginTests:testLogin_WithLockedUser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>locked_out_user</td>
+<td>secret_sauce</td>
+<td>Epic sadface: Sorry, this user has been locked out.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">checkout.OrdersTests:testCompleteAPurchase</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>standard_user</td>
+<td>secret_sauce</td>
+<td>Price (low to high)</td>
+<td>Sauce Labs Onesie</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">login.LoginTests:testLogin_WithValidUser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>standard_user</td>
+<td>secret_sauce</td>
+<td>inventory.html</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

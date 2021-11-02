@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/perlams/IdeaProjects/automation_challenge">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="cart.CartTests">
+                <methods>
+                    <include name="testAddItemsToCart"/>
+                    <include name="testAddAnSpecificSingleItem"/>
+                </methods>
+            </class>
+            <class name="checkout.OrdersTests">
+                <methods>
+                    <include name="testCompleteAPurchase"/>
+                </methods>
+            </class>
+            <class name="home.HomeTests">
+                <methods>
+                    <include name="testSortProductsLowToHigh"/>
+                </methods>
+            </class>
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="testLogin_WithValidUser"/>
+                    <include name="testLogin_WithInvalidUser"/>
+                    <include name="testLogin_WithLockedUser"/>
+                    <include name="testLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
