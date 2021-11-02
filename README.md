@@ -6,4 +6,3 @@ with Edge or Firefox, you need to modify the parameter value to 'edge' or
 'firefox' -->  <parameter name="browser" value="chrome"></parameter>
 4) The default setting is set to run all browsers as headless. In order to run opening the browsers 
 you need to comment the line 'options.addArguments("headless");' from the utils.BrowserFactory class.
-5) 
